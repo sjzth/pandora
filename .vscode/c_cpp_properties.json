@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}",
+                "${workspaceFolder}./Inc",
+                "${workspaceFolder}./Drivers/STM32L4xx_HAL_Driver/Inc",
+                "${workspaceFolder}./Drivers/STM32L4xx_HAL_Driver/Inc/Legacy",
+                "${workspaceFolder}./Drivers/CMSIS/Device/ST/STM32L4xx/Include",
+                "${workspaceFolder}./Drivers/CMSIS/Include",
+                "${workspaceFolder}./SYSTEM/delay",
+                "${workspaceFolder}./SYSTEM/sys",
+               "${workspaceFolder}./LED"
+              
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "D:\\Installsoftware\\MINGW\\bin\\gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}
